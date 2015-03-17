@@ -37,25 +37,15 @@
         // 'required' attribute is much easier and fulfills exactly 
         // what I did here anyway.
         // Check if name has been entered
-        if (!$_POST['name']) {
-            $errName = 'Please enter your name';
-        }
+     
 
         // Check if email has been entered and is valid
-        if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-            $errEmail = 'Please enter a valid email address';
-        }
+       
 
         //Check if message has been entered
-        if (!$_POST['message']) {
-            $errMessage = 'Please enter your message';
-        }
-        //Check if simple anti-bot test is correct
-        if ($human !== 5) {
-            $errHuman = 'Your anti-spam is incorrect';
-        }else{
+       
           $humanBool = 66;
-        }
+     
 
         // If there are no errors in the data fields i.e. missing data
         if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
