@@ -56,7 +56,7 @@ function died($error) {
 		died('We are sorry, but there appears to be a problem with the form your submitted.');		
 	}
 
-   <F5>
+   
 	$email = $_POST['email']; // required
 	
 	
@@ -118,7 +118,7 @@ function clean_string($string) {
       'api_key' => $pass,
       'to' => $emailadd,
       'subject' =>  $subject,
-      'html' => $email_message,
+     # 'html' => $email_message,
       'text' => $email_message,
       'from' => 'application@myalohavacation.com',
    );
@@ -172,7 +172,7 @@ function clean_string($string) {
       'api_key' => $pass,
       'to' => $emailadd,
       'subject' =>  $subject,
-      'html' => $email_message,
+     # 'html' => $email_message,
       'text' => $email_message,
       'from' => 'application@myalohavacation.com',
    );
@@ -223,8 +223,8 @@ function clean_string($string) {
                 // this is here to reset the page and clear the fields
                 // of the form once mail has been sent.
                 $page = $_SERVER['PHP_SELF'];
-                $sec = "3";
-                header("Refresh: $sec; url=$urlreturn");
+               $sec = "3";
+               header("Refresh: $sec; url=$urlreturn");
 
 
 		echo '<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$urlreturn.'">'
