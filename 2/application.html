@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>My Aloha Vacation!</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <!-- **** layout stylesheet **** -->
+  <link rel="stylesheet" type="text/css" href="../style/style.css" />
+  <!-- **** colour stylesheet **** -->
+  <link rel="stylesheet" type="text/css" href="../style/colour_3.css" />
+<script src="/jquery.ui-1.5.2/jquery-1.2.6.js" type="text/javascript"></script>
+<script src="/jquery.ui-1.5.2/ui/ui.datepicker.js" type="text/javascript"></script>
+<link href="/jquery.ui-1.5.2/themes/ui.datepicker.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="logo">
+      <br/>
+      <div align="center"><img src="../assets/title.gif" /></div>
+      <!---<div id="colours">
+        <a href="index.html"><img src="style/1.png" alt="colour scheme 1" /></a>&nbsp;
+        <a href="colour_2.html"><img src="style/2.png" alt="colour scheme 2" /></a>&nbsp;
+        <a href="colour_3.html"><img src="style/3.png" alt="colour scheme 3" /></a>&nbsp;
+      </div>--->
+    </div>
+    <div id="menubar">
+      <ul id="menu">
+        <li><a href="../2/home.html">Home</a></li>
+        <li><a href="../2/photos.html" title="Sidebar - Left">Photos</a></li>
+        <li><a href="../2/map.html" title="">Map</a></li>
+        <li><a href="../2/description.html" title="">Description</a></li>
+        <li><a href="../2/rate.html" title="">Rate & Avail</a></li>
+        <li><a href="../2/about.html" title="">About</a></li>
+        <li><a class="current" href="../2/application.html" title="">Application</a></li>
+        <li><a href="../2/contact.html" title="">Contact</a></li>
+      </ul>
+      <!---<div id="search">
+        <form method="post" action="#">
+          <p><input class="searchfield" type="text" value="" />
+          <input class="searchbutton" name="submit" type="submit" value="search" /></p>
+        </form>
+      </div>--->
+    </div>
+    <div id="site_content">
+    	
+      <div class="sidebar">
+        <div class="sidebaritem">
+          <img src="../assets/palm-tree.jpg"/>
+        </div>
+      </div>
+	  
+      <div id="content">
+        <h1>Application for Rental</h1>
+        <p>
+        <!-- **** INSERT PAGE CONTENT HERE **** -->
+		</p>
+        <form id="form1" method="post" action="../2/send.php">
+          <p>
+            <label>Select Condo Requested
+              <select name="Condo" id="Condo">
+                <option value="Mountain View (Fairway Villa)" selected="selected">Mountain View (Fairway Villa)</option>
+                <option value="Diamond Head View (Fairway Villa)">Diamond Head View (Fairway Villa)</option>
+                <option value="Aloha Lani">Aloha Lani</option>
+                <option value="Terra Verde">Terra Verde</option>
+              </select>
+            </label>
+          </p>
+          <p><b>Please remember that this is strictly a non-smoking condo.</b></p>
+          <p>To book this property, first e-mail or phone to confirm availability. Then submit the form below<br/>
+            Deposit is required within 5 business days after submitting this form. <br/>
+  <br/>
+          Also please be sure to Fax a copy of your Drivers License to (734)420-0375. </p>
+          <p>
+            <label>How will you pay?
+              <select name="payment" id="payment">
+                <option value="Check">Check</option>
+                <option value="Credit Card">Credit Card</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>Name of ALL guests staying in the Condo:
+              <textarea name="guests" cols="40" rows="5" id="guests"></textarea>
+            </label>
+          </p>
+          <p> Date and Time of Arrival: (Check in is 3:00PM*)</p>
+          <p>
+            <select name="AriveMonth">
+              <option selected="selected">Month</option>
+              <option value="01">January</option>
+              <option value="02">February</option>
+              <option value="03">March</option>
+              <option value="04">April</option>
+              <option value="05">May</option>
+              <option value="06">June</option>
+              <option value="07">July</option>
+              <option value="08">August</option>
+              <option value="09">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+            <select name="AriveDay" id="AriveDay">
+              <option selected="selected">Day</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="AriveYear">
+              <option selected="selected">Year</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <select name="AriveTime">
+              <option selected="selected">Time</option>
+              <option value="1:00">1:00</option>
+              <option value="2:00">2:00</option>
+              <option value="3:00">3:00</option>
+              <option value="4:00">4:00</option>
+              <option value="5:00">5:00</option>
+              <option value="6:00">6:00</option>
+              <option value="7:00">7:00</option>
+              <option value="8:00">8:00</option>
+              <option value="9:00">9:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="12:00">12:00</option>
+            </select> 
+            <select name="AriveAM" id="AriveAM">
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </p>
+          <p> Date and Time of Departure: (Check out is 11:00AM*)</p>
+          <p>
+            <select name="DepartMonth">
+              <option selected="selected">Month</option>
+              <option value="01">January</option>
+              <option value="02">February</option>
+              <option value="03">March</option>
+              <option value="04">April</option>
+              <option value="05">May</option>
+              <option value="06">June</option>
+              <option value="07">July</option>
+              <option value="08">August</option>
+              <option value="09">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+            <select name="DepartDay">
+              <option selected="selected">Day</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="DepartYear">
+              <option selected="selected">Year</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <select name="DepartTime">
+              <option selected="selected">Time</option>
+              <option value="1:00">1:00</option>
+              <option value="2:00">2:00</option>
+              <option value="3:00">3:00</option>
+              <option value="4:00">4:00</option>
+              <option value="5:00">5:00</option>
+              <option value="6:00">6:00</option>
+              <option value="7:00">7:00</option>
+              <option value="8:00">8:00</option>
+              <option value="9:00">9:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="12:00">12:00</option>
+            </select>     
+             <select name="DepartAM" id="AriveAM">
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>    
+          </p>
+          <p>
+            <label>Permanent Address:
+              <textarea name="PAddress" cols="70" rows="3" id="PAddress"></textarea>
+            </label>
+          </p>
+          <p>
+            <label>E-mail address:
+              <input name="email" type="text" class="current" id="email" size="50" />
+            </label>
+          </p>
+          <p>
+            <label>Home Phone: (
+              <input name="hPhone" type="text" id="hPhone" size="3" maxlength="3" />
+              )
+            </label>
+            <input name="hPhone2" type="text" id="hPhone2" size="3" maxlength="3" />
+            -
+            <input name="hPhone4" type="text" id="hPhone4" size="4" maxlength="4" />
+          </p>
+          <p>
+            <label>Cell Phone: (
+              <input name="cPhone" type="text" id="cPhone" size="3" maxlength="3" />
+              ) </label>
+            <input name="cPhone2" type="text" id="cPhone2" size="3" maxlength="3" />
+-
+<input name="cPhone3" type="text" id="cPhone3" size="4" maxlength="4" />
+          </p>
+          <p>
+            <label>Place of Employment:
+              <input name="employ" type="text" id="employ" value="" size="55" />
+            </label>
+          </p>
+          <p>
+            <label>Address of Employment:
+              <textarea name="employaddress" cols="55" rows="4" id="employaddress"></textarea>
+            </label>
+          </p>
+          <p>
+            <label>Contact Person and Phone:<br />
+<input name="ContactPandP" type="text" id="ContactPandP" size="45" />
+            </label>
+          </p>
+          <p>
+            <label>(
+              <input name="conPhone" type="text" id="conPhone" size="3" maxlength="3" />
+              ) </label>
+            <input name="conPhone2" type="text" id="conPhone2" size="3" maxlength="3" />
+-
+<input name="conPhone3" type="text" id="conPhone3" size="4" maxlength="4" />
+          </p>
+          <p>
+            <label>Emergency Contact Name:
+              <input name="EContactname" type="text" id="EContactname" size="50" />
+            </label>
+          </p>
+          <p>
+            <label>Emergency Contact Address
+              <textarea name="EContactAddress" cols="55" rows="4" id="EContactAddress"></textarea>
+            </label>
+          </p>
+          <p>
+            <label>Emergency Contact Phone: (
+              <input name="ePhone1" type="text" id="ePhone1" size="3" maxlength="3" />
+              ) </label>
+            <input name="ePhone2" type="text" id="ePhone2" size="3" maxlength="3" />
+-
+<input name="ePhone3" type="text" id="ePhone3" size="4" maxlength="4" />
+          </p>
+          <p>Will you be renting a Vehicle? (Must know 2 weeks in advance to reserve Parking Slot) </p>
+          <p>
+            <label>
+              <input type="radio" name="_parking" id="_parking" value="Yes" />
+              Yes</label>
+            <label>
+              <input type="radio" name="_parking" id="_parking" value="No" />
+              No</label>
+          </p>
+          <p>Full payment is required to hold the condo from 90 days prior to arrival until check-in. </p>
+          <p>Date Final payment is due: 
+            <select name="DueMonth">
+              <option selected="selected">Month</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <select name="DueDay">
+              <option selected="selected">Day</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="DueYear">
+              <option selected="selected">Year</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+            </select>
+            <br/>
+(PLEASE CALCULATE AND COMPLETE)          </p>
+          <p>
+            <label>Any additional comments or questions may be written here.
+              <textarea name="Additional" cols="80" rows="10" id="Additional"></textarea>
+            </label>
+          </p>
+          <p>
+            <input type="submit" name="Submit" id="Submit" value="Submit" />
+          </p>
+          <p>
+            <input name="FILE" type="hidden" id="FILE" value="/www/data/template.txt" />
+            <input name="_recipients" type="hidden" id="_recipients" value="sampka@gmail.com" />
+          </p>
+        </form>
+<p>*Early check in or late check out can be requested, although it's not always available.<br/>
+		<br/>
+        </p>
+</div>
+    </div>
+ <div align="center">
+        <a href="../1/home.html">One Bedroom (Hawaii)</a> | 
+        <a href="../2/home.html">Mountain View (Hawaii)</a> |<a href="../4/home.html"> Diamond Head View (Hawaii) </a>
+    </div>
+    <div id="footer">
+      Copyright &copy; MyAlohaVacation.com
+    </div>
+  </div>
+</body>
+</html>
