@@ -35,3 +35,5 @@
 
  // print everything out
  print_r($response);
+
+ echo $response;
