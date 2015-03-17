@@ -35,19 +35,8 @@
 
         $body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
-        // now we go through some validation of the parts in the form 
-        // to check everything was entered. In hindsight HTML 5 
-        // 'required' attribute is much easier and fulfills exactly 
-        // what I did here anyway.
-        // Check if name has been entered
-     
-
-        // Check if email has been entered and is valid
-       
-
-        //Check if message has been entered
-       
-          $humanBool = 66;
+ 
+  
      
 
         // If there are no errors in the data fields i.e. missing data
