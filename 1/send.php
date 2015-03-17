@@ -31,14 +31,12 @@
         $to = 'thisiswhereitsgoing@gmail.com'; 
         $subject = 'Message for subject line of email';
 
-<<<<<<< HEAD
        
 
         $body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
  
   
-=======
         $humanBool=66;
 
         $body = "From: $name\n E-Mail: $email\n Message:\n $message";
@@ -56,7 +54,7 @@
         //Check if message has been entered
        
           $humanBool = 66;
->>>>>>> parent of f77024d... asd
+
      
 
         // If there are no errors in the data fields i.e. missing data
@@ -68,13 +66,8 @@
                     'api_user'  => $user,
                     'api_key'   => $pass,
                     'to'        => 'sampka@gmail.com',
-<<<<<<< HEAD
                     'subject'   => 'subject',
-                    'html'      => 'newtest',
-=======
-                    'subject'   => 'Subject',
                     'html'      => 'test',
->>>>>>> parent of f77024d... asd
                     'text'      => 'this is the text element',
                     'from'      => 'test@myalohavacation.com',
                   );
@@ -127,17 +120,14 @@
                 $page = $_SERVER['PHP_SELF'];
                 $sec = "3";
                 header("Refresh: $sec; url=$page");
-<<<<<<< HEAD
 
 
 
 
 ?>
-=======
 
 
 
-?>
 // after this goes the HTML form here is one box from the form as its 
 // all the same no need to repeat it all I think.
 
@@ -147,4 +137,3 @@
                             <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" style="text-transform:capitalize" value="<?php echo htmlspecialchars($_POST['name']); ?>" required>
                             <?php echo "<p class='text-danger'>$errName</p>";?>
                         </div>
->>>>>>> parent of f77024d... asd
