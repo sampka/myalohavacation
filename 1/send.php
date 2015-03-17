@@ -1,5 +1,5 @@
 <?php
-<<<<<<< HEAD
+
 //--------------------------Set these paramaters--------------------------
 
 // Subject of email sent to you.
@@ -73,8 +73,8 @@ function clean_string($string) {
 	
 
 mail($emailadd, $subject, $email_message);
-echo '<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
-=======
+
+
 
  $url = 'https://api.sendgrid.com/';
  $user = 'azure_85cc94cc954ae67d5f6ffe0beb837869@azure.com';
@@ -104,7 +104,7 @@ echo '<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
         $to = 'thisiswhereitsgoing@gmail.com'; 
         $subject = 'Message for subject line of email';
 
-        $humanBool=66;
+       
 
         $body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
@@ -189,5 +189,5 @@ echo '<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
 
 
 
->>>>>>> parent of c42a08a... da
+
 ?>
