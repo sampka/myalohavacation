@@ -68,80 +68,9 @@ function clean_string($string) {
 	
 
 
-	$smtpurl = 'https://api.sendgrid.com/';
-	$user = 'azure_85cc94cc954ae67d5f6ffe0beb837869@azure.com';
-	$pass = '5tizzoB7HGrK6P7';
-
-$params = array(
-      'api_user' => $user,
-      'api_key' => $pass,
-      'to' => $emailadd,
-      'subject' => $subject,
-      'html' => $email_message,
-      'from' => 'test@myalohavacation.com',
-   );
-
-<<<<<<< HEAD
-	$request = $smtpurl.'api/mail.send.json';
-=======
- $request = $url.'api/mail.send.json';
-
- if ($_POST["submit"]) {
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $message = $_POST['message'];
-        $human = intval($_POST['human']);
-        $from = "From: Contact Form";
-        $mobile = $_POST['number'];
-
-        $to = 'thisiswhereitsgoing@gmail.com'; 
-        $subject = 'Message for subject line of email';
-
-        $humanBool=66;
-
-        $body = "From: $name\n E-Mail: $email\n Message:\n $message";
-
-        // now we go through some validation of the parts in the form 
-        // to check everything was entered. In hindsight HTML 5 
-        // 'required' attribute is much easier and fulfills exactly 
-        // what I did here anyway.
-        // Check if name has been entered
-     
-
-        // Check if email has been entered and is valid
-       
-
-        //Check if message has been entered
-       
-          $humanBool = 66;
-     
->>>>>>> parent of c42a08a... da
-
-	 // Generate curl request
- $session = curl_init($request);
-
- // Tell curl to use HTTP POST
- curl_setopt ($session, CURLOPT_POST, true);
-
- // Tell curl that this is the body of the POST
- curl_setopt ($session, CURLOPT_POSTFIELDS, $params);
-
- // Tell curl not to return headers, but do return the response
- curl_setopt($session, CURLOPT_HEADER, false);
- curl_setopt($session, CURLOPT_RETURNTRANSFER, true);
-
-<<<<<<< HEAD
- // obtain response
- $response = curl_exec($session);
- curl_close($session);
-=======
-}
->>>>>>> parent of c42a08a... da
-
- // print everything out
  print_r($response);
 	
 
-#mail($emailadd, $subject, $email_message);
+mail($emailadd, $subject, $email_message);
 echo '<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
 ?>
