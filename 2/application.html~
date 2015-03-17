@@ -61,7 +61,8 @@
               <select name="Condo" id="Condo">
                 <option value="Mountain View (Fairway Villa)" selected="selected">Mountain View (Fairway Villa)</option>
                 <option value="Diamond Head View (Fairway Villa)">Diamond Head View (Fairway Villa)</option>
-               <option value="One Bedroom (Aloha Lani)">One Bedroom (Aloha Lani)</option>
+                <option value="Aloha Lani">Aloha Lani</option>
+                <option value="Terra Verde">Terra Verde</option>
               </select>
             </label>
           </p>

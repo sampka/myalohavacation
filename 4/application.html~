@@ -26,14 +26,14 @@
     </div>
     <div id="menubar">
       <ul id="menu">
-        <li><a href="../2/home.html">Home</a></li>
-        <li><a href="../2/photos.html" title="Sidebar - Left">Photos</a></li>
-        <li><a href="../2/map.html" title="">Map</a></li>
-        <li><a href="../2/description.html" title="">Description</a></li>
-        <li><a href="../2/rate.html" title="">Rate & Avail</a></li>
-        <li><a href="../2/about.html" title="">About</a></li>
+        <li><a href="../4/home.html">Home</a></li>
+        <li><a href="../4/photos.html" title="Sidebar - Left">Photos</a></li>
+        <li><a href="../4/map.html" title="">Map</a></li>
+        <li><a href="../4/description.html" title="">Description</a></li>
+        <li><a href="../4/rate.html" title="">Rate & Avail</a></li>
+        <li><a href="../4/about.html" title="">About</a></li>
         <li><a class="current" href="../2/application.html" title="">Application</a></li>
-        <li><a href="../2/contact.html" title="">Contact</a></li>
+        <li><a href="../4/contact.html" title="">Contact</a></li>
       </ul>
       <!---<div id="search">
         <form method="post" action="#">
@@ -59,9 +59,9 @@
           <p>
             <label>Select Condo Requested
               <select name="Condo" id="Condo">
-                <option value="Mountain View (Fairway Villa)" selected="selected">Mountain View (Fairway Villa)</option>
-                <option value="Diamond Head View (Fairway Villa)">Diamond Head View (Fairway Villa)</option>
-               <option value="One Bedroom (Aloha Lani)">One Bedroom (Aloha Lani)</option>
+                <option value="Mountain View (Fairway Villa)" >Mountain View (Fairway Villa)</option>
+                <option value="Diamond Head View (Fairway Villa)" selected="selected">Diamond Head View (Fairway Villa)</option>
+               <option value="One Bedroom (Aloha Lani)">One Bedroom (Aloha Lani)</option> 
               </select>
             </label>
           </p>
@@ -416,9 +416,10 @@
         </p>
 </div>
     </div>
- <div align="center">
+    <div align="center">
         <a href="../1/home.html">One Bedroom (Hawaii)</a> | 
-        <a href="../2/home.html">Mountain View (Hawaii)</a> |<a href="../4/home.html"> Diamond Head View (Hawaii) </a>
+        <a href="../2/home.html">Studio (Hawaii)</a> | 
+        <a href="../4/home.html">Three Bedroom (Florida)</a>
     </div>
     <div id="footer">
       Copyright &copy; MyAlohaVacation.com
