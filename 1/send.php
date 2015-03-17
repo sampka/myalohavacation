@@ -48,12 +48,7 @@
      
 
         // If there are no errors in the data fields i.e. missing data
-        if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-          //and the human anti spam field is correct.
-            if($humanBool == 66){
-              //do the email sending magic.
-              //create url for api call
-              // ready for that repetitive code?
+        
                 $url = 'https://api.sendgrid.com/';
                 //create array params for api call
                 //these params are what appear in the email that arrives into your email account.
@@ -62,9 +57,9 @@
                     'api_key'   => $pass,
                     'to'        => 'whereEmailIsGoing@gmail.com',
                     'subject'   => 'Subject',
-                    'html'      => "From: $name\n\r Message:\r\n $message",
+                    'html'      => 'test',
                     'text'      => 'this is the text element',
-                    'from'      => $email,
+                    'from'      => 'test@myalohavacation.com',
                   );
 
                 // I don't why I concatenated this but one of the 
@@ -116,14 +111,6 @@
                 $sec = "3";
                 header("Refresh: $sec; url=$page");
 
-            }else{
-                  $result='<div class="alert alert-danger">Human checked failed</div>';
-            }
-
-
-          }else{
-              $result='<div class="alert alert-danger">Validation error</div>';
-          }
 }
 
 
