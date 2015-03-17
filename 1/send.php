@@ -83,7 +83,7 @@ function clean_string($string) {
  $params = array(
       'api_user' => $user,
       'api_key' => $pass,
-      'to' => 'sampka@gmail.com',
+      'to' => $emailadd,
       'subject' =>  $subject,
       'html' => $email_message,
       'text' => $email_message,
@@ -137,7 +137,7 @@ function clean_string($string) {
               $params = array(
       'api_user' => $user,
       'api_key' => $pass,
-      'to' => 'sampka@gmail.com',
+      'to' => $emailadd,
       'subject' =>  $subject,
       'html' => $email_message,
       'text' => $email_message,

@@ -101,7 +101,7 @@ function clean_string($string) {
         $mobile = $_POST['number'];
 
         $to = 'sampka@gmail.com'; 
-        $subject = $subject;
+    
 
        
 
