@@ -32,7 +32,7 @@
         <li><a href="../1/description.html" title="">Description</a></li>
         <li><a href="../1/rate.html" title="">Rate & Avail</a></li>
         <li><a href="../1/about.html" title="">About</a></li>
-        <li><a class="current" href="../1/application.html" title="">Application</a></li>
+        <li><a class="current" href="../2/application.html" title="">Application</a></li>
         <li><a href="../1/contact.html" title="">Contact</a></li>
       </ul>
       <!---<div id="search">
@@ -55,7 +55,7 @@
         <p>
         <!-- **** INSERT PAGE CONTENT HERE **** -->
 		</p>
-        <form id="form1" method="post" action="../1/send.php">
+        <form id="form1" method="post" action="../2/send.php">
           <p>
             <label>Select Condo Requested
               <select name="Condo" id="Condo">
