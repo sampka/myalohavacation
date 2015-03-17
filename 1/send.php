@@ -222,9 +222,9 @@ function clean_string($string) {
 
                 // this is here to reset the page and clear the fields
                 // of the form once mail has been sent.
-      #          $page = $_SERVER['PHP_SELF'];
-       #         $sec = "3";
-       #         header("Refresh: $sec; url=$urlreturn");
+                $page = $_SERVER['PHP_SELF'];
+               $sec = "3";
+               header("Refresh: $sec; url=$urlreturn");
 
 
 		echo '<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$urlreturn.'">'

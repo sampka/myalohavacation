@@ -56,7 +56,7 @@ function died($error) {
 		died('We are sorry, but there appears to be a problem with the form your submitted.');		
 	}
 
-   <F5>
+   
 	$email = $_POST['email']; // required
 	
 	
