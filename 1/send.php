@@ -118,7 +118,7 @@ function clean_string($string) {
       'api_key' => $pass,
       'to' => $emailadd,
       'subject' =>  $subject,
-      'html' => $email_message,
+     # 'html' => $email_message,
       'text' => $email_message,
       'from' => 'application@myalohavacation.com',
    );
@@ -172,7 +172,7 @@ function clean_string($string) {
       'api_key' => $pass,
       'to' => $emailadd,
       'subject' =>  $subject,
-      'html' => $email_message,
+     # 'html' => $email_message,
       'text' => $email_message,
       'from' => 'application@myalohavacation.com',
    );
