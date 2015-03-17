@@ -5,7 +5,7 @@
 $subject = 'Application for '.clean_string($Condo)."  Guests: ".clean_string($guests); 
 
 // Your email address. This is where the form information will be sent. 
-$emailadd = 'sampka@gmail.com'; 
+$emailadd = 'elaine@myalohavacation.com'; 
 
 // Where to redirect after form is processed. 
 $url = 'http://www.myalohavacation.com/1/application.html'; 
@@ -64,12 +64,7 @@ function clean_string($string) {
     $email_message .= "Additional Comments or Questions: ".clean_string($Additional)."\n\n";
 
 
-	#printf($email_message);
-	
-
-
- print_r($response);
-	
+#printf($email_message);
 
 mail($emailadd, $subject, $email_message);
 echo '<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
