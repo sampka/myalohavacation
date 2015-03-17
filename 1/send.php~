@@ -7,7 +7,7 @@
  $params = array(
       'api_user' => $user,
       'api_key' => $pass,
-      'to' => 'john@contoso.com',
+      'to' => 'sampka@gmail.com',
       'subject' => 'testing from curl',
       'html' => 'testing body',
       'text' => 'testing body',

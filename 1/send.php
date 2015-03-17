@@ -11,7 +11,7 @@
       'subject' => 'testing from curl',
       'html' => 'testing body',
       'text' => 'testing body',
-      'from' => 'anna@contoso.com',
+      'from' => 'azure_85cc94cc954ae67d5f6ffe0beb837869@azure.com',
    );
 
  $request = $url.'api/mail.send.json';
