@@ -58,9 +58,15 @@
                 $params = array(
                     'api_user'  => $user,
                     'api_key'   => $pass,
+<<<<<<< HEAD
                     'to'        => 'sampka@gmail.com',
                     'subject'   => 'subject',
                     'html'      => 'newtest',
+=======
+                    'to'        => 'whereEmailIsGoing@gmail.com',
+                    'subject'   => 'Subject',
+                    'html'      => 'test',
+>>>>>>> parent of f77024d... asd
                     'text'      => 'this is the text element',
                     'from'      => 'test@myalohavacation.com',
                   );
