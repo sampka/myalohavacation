@@ -1,23 +1,5 @@
 <?php
 //--------------------------Set these paramaters--------------------------
-$Condo = $_POST['Condo'];
-$guests = $_POST['guests'];
-$payment = $_POST['payment'];
-$AriveMonth = $_POST['AriveMonth'];
-$AriveDay = $_POST['AriveDay'];
-$AriveYear = $_POST['AriveYear'];
-$DepartMonth = $_POST['DepartMonth'];
-$DepartDay = $_POST['DepartDay'];
-$DepartYear = $_POST['DepartYear'];
-$PAddress = $_POST['PAddress'];
-$hPhone = $_POST['hPhone'];
-$hPhone2 = $_POST['hPhone2'];
-$hPhone4 = $_POST['hPhone4'];
-$cPhone = $_POST['cPhone'];
-$cPhone2 = $_POST['cPhone2'];
-$cPhone3 = $_POST['cPhone3'];
-$employ =  $_POST['employ'];
-
 
 // Subject of email sent to you.
 $subject = 'Application for '.clean_string($Condo)."  Guests: ".clean_string($guests); 
