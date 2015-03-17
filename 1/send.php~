@@ -17,7 +17,7 @@
 
  $request = $url.'api/mail.send.json';
 
- if ($_POST["submit"]) {
+
         $name = $_POST['name'];
         $email = $_POST['email'];
         $message = $_POST['message'];
@@ -111,7 +111,6 @@
                 $sec = "3";
                 header("Refresh: $sec; url=$page");
 
-}
 
 
 ?>
