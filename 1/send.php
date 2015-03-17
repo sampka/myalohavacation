@@ -133,7 +133,7 @@ function clean_string($string) {
         $from = "From: Contact Form";
         $mobile = $_POST['number'];
 
-        $to = 'sampka@gmail.com'; 
+        $to = $emailadd; 
     
 
        

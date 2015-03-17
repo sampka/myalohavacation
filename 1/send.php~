@@ -23,6 +23,15 @@ $conPhone =  $_POST['conPhone'];
 $conPhone3 =  $_POST['conPhone3'];
 $conPhone4 =  $_POST['conPhone4'];
 $EContactname =  $_POST['EContactname'];
+$EContactAddress =  $_POST['EContactAddress'];
+$ePhone1 =  $_POST['ePhone1'];
+$ePhone2 =  $_POST['ePhone2'];
+$ePhone3 =  $_POST['ePhone3'];
+$_parking =  $_POST['_parking'];
+$DueMonth =  $_POST['DueMonth'];
+$DueDay =  $_POST['DueDay'];
+$DueYear =  $_POST['DueYear'];
+$Additional =  $_POST['Additional'];
 
 
 // Subject of email sent to you.
