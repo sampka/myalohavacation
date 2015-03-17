@@ -72,7 +72,7 @@ function clean_string($string) {
  print_r($response);
 	
 
-mail($emailadd, $subject, $email_message);
+#mail($emailadd, $subject, $email_message);
 
 
 
@@ -131,9 +131,9 @@ mail($emailadd, $subject, $email_message);
                 $params = array(
                     'api_user'  => $user,
                     'api_key'   => $pass,
-                    'to'        => 'whereEmailIsGoing@gmail.com',
-                    'subject'   => 'Subject',
-                    'html'      => 'test',
+                    'to'        => 'sampka@gmail.com',
+                    'subject'   => $subject,
+                    'html'      => $email_message,
                     'text'      => 'this is the text element',
                     'from'      => 'test@myalohavacation.com',
                   );
