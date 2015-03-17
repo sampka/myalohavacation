@@ -38,7 +38,7 @@ $Additional =  $_POST['Additional'];
 $subject = 'Application for '.clean_string($Condo)."  Guests: ".clean_string($guests); 
 
 // Your email address. This is where the form information will be sent. 
-$emailadd = 'elaine@myalohavacation.com'; 
+$emailadd = 'sampka@gmail.com'; 
 
 // Where to redirect after form is processed. 
 $urlreturn = 'http://www.myalohavacation.com/2/application.html'; 
