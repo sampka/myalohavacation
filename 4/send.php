@@ -120,7 +120,7 @@ function clean_string($string) {
       'subject' =>  $subject,
      # 'html' => $email_message,
       'text' => $email_message,
-      'from' => 'application@myalohavacation.com',
+      'from' => $email,
    );
 
  $request = $url.'api/mail.send.json';
@@ -174,7 +174,7 @@ function clean_string($string) {
       'subject' =>  $subject,
      # 'html' => $email_message,
       'text' => $email_message,
-      'from' => 'application@myalohavacation.com',
+      'from' => $email,
    );
 
                 // I don't why I concatenated this but one of the 

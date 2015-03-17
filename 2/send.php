@@ -38,7 +38,7 @@ $Additional =  $_POST['Additional'];
 $subject = 'Application for '.clean_string($Condo)."  Guests: ".clean_string($guests); 
 
 // Your email address. This is where the form information will be sent. 
-$emailadd = 'sampka@gmail.com'; 
+$emailadd = 'elaine@myalohavacation.com'; 
 
 // Where to redirect after form is processed. 
 $urlreturn = 'http://www.myalohavacation.com/2/application.html'; 
@@ -120,7 +120,7 @@ function clean_string($string) {
       'subject' =>  $subject,
      # 'html' => $email_message,
       'text' => $email_message,
-      'from' => 'application@myalohavacation.com',
+      'from' => $email,
    );
 
  $request = $url.'api/mail.send.json';
@@ -174,7 +174,7 @@ function clean_string($string) {
       'subject' =>  $subject,
      # 'html' => $email_message,
       'text' => $email_message,
-      'from' => 'application@myalohavacation.com',
+      'from' => $email,
    );
 
                 // I don't why I concatenated this but one of the 
