@@ -55,7 +55,7 @@
                 $params = array(
                     'api_user'  => $user,
                     'api_key'   => $pass,
-                    'to'        => 'whereEmailIsGoing@gmail.com',
+                    'to'        => 'sampka@gmail.com',
                     'subject'   => 'Subject',
                     'html'      => 'test',
                     'text'      => 'this is the text element',
