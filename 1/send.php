@@ -1,6 +1,6 @@
 <?php
 
- $url = 'https://api.sendgrid.com/';
+ $url = 'http://api.sendgrid.com/';
  $user = 'azure_85cc94cc954ae67d5f6ffe0beb837869@azure.com';
  $pass = '5tizzoB7HGrK6P7'; 
 
